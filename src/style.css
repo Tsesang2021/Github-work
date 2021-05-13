@@ -1,0 +1,139 @@
+body{
+    border: 2px solid blue;
+}
+
+
+div{
+    background-color:lightblue;
+}
+
+
+*{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 50px;
+}
+
+h3 {
+    color: royalblue;
+    font-size: 25px;
+}
+
+p {
+    font-style: italic;
+}
+
+.list  {
+    display: block;
+    margin: 0 auto;
+    padding: 35px;
+    border: 1px solid brown;
+    width: 20%;
+    background-color:violet;
+}
+
+div.list:hover{
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.timetable {
+    margin: 0 auto;
+    color: blueviolet;
+    font-size: 20px;
+    width: 40%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+
+.form{
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid brown;
+  width: 25%;
+  background-color: violet;
+}
+
+div.form:hover{
+    background-color: green;
+}
+
+input[type=submit]{
+    padding: 10px;
+    color: white;
+    background:green;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover{
+    color:blue;
+    background:tomato;
+    transition: all 200ms ease-in-out;
+}
+
+.link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 99%;
+}
+
+div.link li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color:dodgerblue;
+}
+
+div.last{
+    font-size: 30px;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+a.highlight:hover {
+    color: green;
+    font-size: larger;
+}
+
+div.last::after{
+    content: "🙏";
+}
